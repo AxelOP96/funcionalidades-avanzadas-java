@@ -12,11 +12,11 @@ Es un conjunto de reglas que se debe seguir para obtener o lograr un determinado
 ***Una Response*** Tienen un formato particular que les permiten transportar la información necesaria para atender a las solicitudes recibidas.
 
 ### Códigos de status
-100: Respuestas de tipo informativas. Generalmente se usan para informar el proceso de solicitudes.
-200: Informan que una solicitud fue procesada correctamente.
-300: Informan que se producirá una redirección.
-400: Representan errores causados principalmente por la solicitud del cliente.
-500: Manifiestan errores causados por el servidor.
+- 100: Respuestas de tipo informativas. Generalmente se usan para informar el proceso de solicitudes.
+- 200: Informan que una solicitud fue procesada correctamente.
+- 300: Informan que se producirá una redirección.
+- 400: Representan errores causados principalmente por la solicitud del cliente.
+- 500: Manifiestan errores causados por el servidor.
 
 ## Librerias
 Conjunto de bloques de código para resolver problemas o necesidades especificas que pueden ser reutilizadas optimizando el código desarrollado.
@@ -25,3 +25,17 @@ Marcos o entornos de trabajo que incluyen dentro de si un conjunto de herramient
 
 ## Maven
 Herramienta de software para la gestión y construcción de proyectos Java que se caracteriza por tener un modelo de configuración muy simple basado en el formato XML.
+
+## ¿Qué es JSP?
+Java Server Pages es una tecnología que permite crear aplicaciones web dinámicas basadas en HTML y XML entre otros tipos. Requiere de un servidor web compatible con contenedores servlet como Apache Tomcat o Glassfish;
+
+## ¿Qué es Apache Tomcat?
+Es un servidor web y contenedor de servlets de código abierto, proporciona un entorno en el que las aplicaciones web Java basadas en JSP y Servlets pueden ejecutarse de manera eficiente.
+
+## Etiquetas JSP
+- <%-- --%> Comentarios
+- <%@ %> Apertura y cierre para directivas/ atributos de configuración
+- <% %> Apertura y cierre para inclusión de sentencias o código Java.
+- <%= %> Apertura y cierre para mostrar el resultado de una expresión o contenido de una variable.
+- <%! %> Apertura y cierre para hacer uso exclusivo de declaración de variables y métodos de instancia que se compartirán entre varios JSP asociados al mismo servlet.
+
